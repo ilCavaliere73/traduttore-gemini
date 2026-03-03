@@ -44,7 +44,8 @@ for nome_modello in modelli_da_provare:
 # Se nessuno funziona, solleviamo un errore chiaro
 if model is None:
     raise ValueError("Nessun modello funzionante trovato. Controlla la tua API Key su Google AI Studio.")
-# --- FINE CONFIGURAZIONE ---
+# -
+# -- FINE CONFIGURAZIONE ---
 
 def dividi_testo(testo, max_chars=15000):
     """Divide il testo in blocchi ampi per Gemini"""
